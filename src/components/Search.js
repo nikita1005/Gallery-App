@@ -32,22 +32,7 @@ class Search extends Component{
         return(
             <section className="searchbox-wrap">
             <input type="text" 
-        //     style=
-        //     {{backgroundColor:'black',
-        //     color:'white',
-        //     marginLeft:570,
-        //     marginTop:100,
-        //     paddingTop:20,
-        //     paddingLeft:70,
-        //     fontSize:30,
-        //     borderTopStyle:"hidden",
-        //     borderRightStyle:"hidden",
-        //     borderLeftStyle:"hidden",
-        //     outline:"none",
-        //     borderBottomStyle:"groove",
-
-        
-        // }}
+      
         className="searchbox"
         placeholder="Search for images"
         name="searchText"
@@ -68,22 +53,3 @@ export default Search;
 
 
 
-// import React from 'react'
-
-// function Search (props) {
-// 	const onChange = e => {
-// 		props.onChange(e.target.value)
-// 	  }
-// 	return (
-// 		<section className="searchbox-wrap">
-// 			 <input
-//    				 className="searchbox"
-//    				 type="text"
-//   			     placeholder="Search for a emoji..."
-//  			    onChange={onChange}
-//  			  />
-// 		</section>
-// 	)
-// }
-
-// export default Search
